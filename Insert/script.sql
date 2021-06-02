@@ -22,9 +22,9 @@ DESC topic;
 */
 \! echo "create a row into the table!"
 INSERT INTO topic (title, description, created, author, profile)  \
-            VALUES('MySQL', 'MySQL is...', NOW(), 'HJ Yang', 'developer');
+            VALUES('Egoin', 'Egoing is...', NOW(), 'Unknown', 'creator');
 INSERT INTO topic (title, description, created, author, profile)  \
-            VALUES('SQL Server', 'SQL Server is...', NOW(), 'duruwa', 'data admin');
+            VALUES('Mongus Server', 'Mongus Server is...', NOW(), 'Admin', 'is admin...');
 \! echo ""
 
 \! echo "reading a row in the table!"
